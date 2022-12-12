@@ -13,16 +13,16 @@ func pickWord(x []string) string {
 
 func Insult(name string) string {
 	list := []string{
-		"Handsome guy",
-		"Fool",
-		"Poop",
-		"Mushroom",
-		"Coon",
-		"Winner",
-		"Good guy",
-		"Just a regular normal motherfucker",
+		"Красавчик",
+		"Идиот",
+		"Какашка",
+		"Гриб",
+		"Енот",
+		"Победитель",
+		"Хороший человек",
+		"Обычный, ничем не примечательный чел",
 	}
 	swear:= pickWord(list)
-	answer:= "Who is "+ name+ "today?"+name+"is a"+ swear+ "today!"
+	answer:= "Кто сегодня  "+ name+ "? "+name+" сегодня "+ swear+ "!"
 return answer
 }
